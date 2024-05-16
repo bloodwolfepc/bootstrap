@@ -59,6 +59,15 @@
      generateKey = true;
     };
   };
+
+  home-manager = {
+    extraSpecialArgs = {inherit inputs;}; 
+    users = {
+      "bloodwolfe" = import ./home.nix;
+    };
+  };
+
+  
   environment.systemPackages = with pkgs; [
     git 
     sops 

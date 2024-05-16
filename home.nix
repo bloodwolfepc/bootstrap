@@ -2,7 +2,7 @@
 
 { 
   imports = [
-    inputs.impermanence.nixosModules.home-manager.impermanence
+    #inputs.impermanence.nixosModules.home-manager.impermanence
     ./gpg.nix
   ];
   home.stateVersion = "23.11"; 
