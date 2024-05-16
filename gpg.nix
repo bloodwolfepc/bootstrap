@@ -17,7 +17,7 @@
     mutableTrust = false;
     publicKeys = [ 
       {
-        source = ./B74857A702B0C92B-2024-04-15.asc;
+        source = ./keys/B74857A702B0C92B-2024-04-15.asc;
         trust = 5;
       }
     ];
