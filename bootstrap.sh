@@ -11,3 +11,7 @@ nixos-install --root /mnt --flake /mnt/etc/nixos#default
 
 #reboot
 #trust generated keys after reboot
+
+#ssh-to-age -i $HOME/.ssh/id_ed25519.pub -o pub-key.txt
+#ssh-to-age -private-key -i $HOME/.ssh/id_ed25519 -o key.txt
+
